@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
+import './About.css';
+import myPhoto from "./home/me1.jpeg";
 const AboutPage = () => {
   return (
+    <div className="vh-100 d-flex container-fluid vh-100 d-flex flex-column justify-content-center align-items-center bg-dark text-white">
     <Container className="py-5">
       <Row>
         <Col md={6}>
-          <img src="https://via.placeholder.com/350" alt="placeholder" className="img-fluid rounded-circle" />
+          <img src={myPhoto} alt="placeholder" className="img-fluid rounded-circle" />
         </Col>
         <Col md={6}>
           <h2>About Me</h2>
@@ -15,6 +17,7 @@ const AboutPage = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 

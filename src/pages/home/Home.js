@@ -1,5 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import myPhoto from "./Photo.jpg";
+import myPhoto from "./me1.jpeg";
+import './Home.css';
 const Home = () => {
   return (
     <div className="vh-100 d-flex container-fluid vh-100 d-flex flex-column justify-content-center align-items-center bg-dark text-white">
@@ -11,7 +12,7 @@ const Home = () => {
               className="img-fluid rounded-circle"
               alt="My photo"
               fluid
-              width="250"
+              
             />
           </Col>
           <Col md={8}>
