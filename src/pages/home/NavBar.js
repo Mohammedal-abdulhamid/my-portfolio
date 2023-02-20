@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { NavLink } from 'react-bootstrap';
+import React from 'react'
+import {Link} from 'react-router-dom';
+// import { NavLink } from 'react-bootstrap';
 import { Navbar, Nav } from "react-bootstrap";
-
-function NavBar(){
+function Nav() {
   return (
+    
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,21 +17,8 @@ function NavBar(){
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-    // <div bg="light" expand="lg" >
-    //   <Link as={Link} to="/">
-    //     Home
-    //   </Link>
-    //   <Link as={Link} to="/about">
-    //     About
-    //   </Link>
-    //   <Link as={Link} to="/projects">
-    //     Projects
-    //   </Link>
-    //   <Link as={Link} to="/contact">
-    //     Contact
-    //   </Link>
-    // </div>
-  );
-  }
+    
+  )
+}
 
-export default NavBar;
+export default Navbar
