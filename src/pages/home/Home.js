@@ -8,7 +8,7 @@ const Home = () => {
           <Col md={4}>
             <img
               src={myPhoto}
-              class="rounded-3"
+              className="img-fluid rounded-circle"
               alt="My photo"
               fluid
               width="250"
