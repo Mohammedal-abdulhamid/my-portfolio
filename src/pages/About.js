@@ -23,7 +23,7 @@ const AboutPage = () => {
               Agile environment. One of my favorite projects was building a web
               application that allowed users to create and customize their own
               workout plans. In my free time, I enjoy exploring new technologies
-              and contributing to open-source projects. I am passionate about
+              specially AI and machine learning. I am passionate about
               using my skills to make a positive impact in the world and I am
               excited to see what the future holds for me in the world of tech.
             </p>

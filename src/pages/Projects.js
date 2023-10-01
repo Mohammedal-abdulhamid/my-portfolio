@@ -44,7 +44,70 @@ function Projects() {
               </div>
             </div>
           </div>
-    
+                {/* Card for Caritas Education */}
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card border-light">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Caritas Education</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Gatsby, Contentful, TailWind, GraphQL, Jest, Figma, Netlify</h6>
+                <ul class="card-text">
+                  <li class ="projectText text-muted">Set a daily stand-up and task distribution.</li>
+                  <li class ="projectText text-muted " >Worked with a team to design the layout of the webpage using Wireframe.</li>
+                  <li class ="projectText text-muted  ">Set meetings with the customer at each stage of the work to get his feedback.</li>
+                  <li class ="projectText text-muted ">Coded the testing part using Jest Testing Library and carried out some debugging.</li>
+                </ul>
+                <a href="https://github.com/Mohammedal-abdulhamid/caritas-final-project" class="card-link text-primary" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+            </div>
+             {/* Card for Caritas Education */}
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card border-light">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Caritas Education</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Gatsby, Contentful, TailWind, GraphQL, Jest, Figma, Netlify</h6>
+                <ul class="card-text">
+                  <li class ="projectText text-muted">Set a daily stand-up and task distribution.</li>
+                  <li class ="projectText text-muted " >Worked with a team to design the layout of the webpage using Wireframe.</li>
+                  <li class ="projectText text-muted  ">Set meetings with the customer at each stage of the work to get his feedback.</li>
+                  <li class ="projectText text-muted ">Coded the testing part using Jest Testing Library and carried out some debugging.</li>
+                </ul>
+                <a href="https://github.com/Mohammedal-abdulhamid/caritas-final-project" class="card-link text-primary" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+            </div>
+             {/* Card for Caritas Education */}
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card border-light">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Caritas Education</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Gatsby, Contentful, TailWind, GraphQL, Jest, Figma, Netlify</h6>
+                <ul class="card-text">
+                  <li class ="projectText text-muted">Set a daily stand-up and task distribution.</li>
+                  <li class ="projectText text-muted " >Worked with a team to design the layout of the webpage using Wireframe.</li>
+                  <li class ="projectText text-muted  ">Set meetings with the customer at each stage of the work to get his feedback.</li>
+                  <li class ="projectText text-muted ">Coded the testing part using Jest Testing Library and carried out some debugging.</li>
+                </ul>
+                <a href="https://github.com/Mohammedal-abdulhamid/caritas-final-project" class="card-link text-primary" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+            </div>
+             {/* Card for Caritas Education */}
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card border-light">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Caritas Education</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Gatsby, Contentful, TailWind, GraphQL, Jest, Figma, Netlify</h6>
+                <ul class="card-text">
+                  <li class ="projectText text-muted">Set a daily stand-up and task distribution.</li>
+                  <li class ="projectText text-muted " >Worked with a team to design the layout of the webpage using Wireframe.</li>
+                  <li class ="projectText text-muted  ">Set meetings with the customer at each stage of the work to get his feedback.</li>
+                  <li class ="projectText text-muted ">Coded the testing part using Jest Testing Library and carried out some debugging.</li>
+                </ul>
+                <a href="https://github.com/Mohammedal-abdulhamid/caritas-final-project" class="card-link text-primary" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+            </div>
           
     
         </div>

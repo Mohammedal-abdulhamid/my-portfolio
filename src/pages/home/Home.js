@@ -17,7 +17,7 @@ const Home = () => {
           <Col md={8}>
             <h1 className="display-4 mb-4">Hello, I'm Mohammed</h1>
             <p className="lead ">
-              I'm a full-stack developer based in Manchester,UK. I have a
+              I'm a full-stack developer based in Manchester,UK. I have 
               passion for coding and creating beautiful, responsive, and
               user-friendly websites and applications.
             </p>

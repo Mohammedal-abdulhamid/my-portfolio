@@ -7,7 +7,9 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="bg-dark text-center text-white">
+    <footer className="bg-dark text-center m-3 text-white" style={{ backgroundColor:'inherit'}}>
+      
+      <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
       <div className="container p-4">
         <section className="mb-4">
           <a href="https://www.linkedin.com/in/mohammed-alabdulhamid-445455209/" className="me-4 text-reset">
@@ -21,7 +23,6 @@ function Footer() {
           </a>
         </section>
       </div>
-      <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © {new Date().getFullYear()} My Portfolio. All rights reserved.
       </div>
     </footer>
