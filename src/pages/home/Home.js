@@ -11,7 +11,7 @@ const Home = () => {
               <img
                 src={myPhoto}
                 className="img-fluid rounded-circle"
-                alt="My photo"
+                alt="mohammed"
                 fluid
               />
             </Col>
