@@ -1,58 +1,87 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "./Skills.css";
-function Skills() {
+import React from 'react';
+import './Skills.css'
+
+const Skills = () => {
+  const technicalSkills = [
+    'JavaScript',
+    'React.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'SQL',
+    'HTML/CSS',
+    'RESTful APIs',
+    'Git/GitHub',
+    'Webpack',
+    'Redux',
+    'Responsive Web Design',
+  ];
+
+  const softSkills = [
+    'Problem Solving',
+    'Teamwork',
+    'Communication',
+    'Time Management',
+    'Adaptability',
+    'Attention to Detail',
+    'Critical Thinking',
+    'Self-Motivation',
+    'Creativity',
+    'Leadership',
+  ];
+
+  const skillsContainerStyle = {
+    display: 'flex',
+    justifyContent: 'space-between',
+   
+  };
+
+  const skillsColumnStyle = {
+    flex: 1,
+    backgroundColor: '#333',
+    color: '#fff',
+    padding: '20px',
+    borderRadius: '10px',
+  };
+
+  const skillsListStyle = {
+    listStyle: 'none',
+    marging:'10px',
+    padding:'5px'
+  };
+
+  const skillsItemStyle = {
+    backgroundColor: '#444',
+    padding: '10px',
+    margin: '5px 0',
+    borderRadius: '5px',
+    border: 'none'
+  };
+  
   return (
-    <section id="projects" class="bg-dark text-light py-5">
-      <div class="container">
-        <h2 class="text-center mb-5">Skills</h2>
-
-        {/* technical skills */}
-        <div class="row">
-          {/* Card for the Shop Comments App */}
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card border-light">
-              <div class="card-body">
-                <h5 class="card-title text-primary">Technical Skills</h5>
-
-                <ul class="card-text">
-                  <li class="projectText text-muted ">
-                    HTML, CSS, JavaScript, Node js React, Bootstrap GitHub,
-                    Expres SQL, MongoDB
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-         {/* technical skills */}
-         <div class="row">
-          {/* Card for the Shop Comments App */}
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card border-light">
-              <div class="card-body">
-                <h5 class="card-title text-primary">Soft Skills</h5>
-
-                <ul class="card-text">
-                  <li class="projectText text-muted ">
-                  Teamwork
-Communication
-Adaptability
-Creativity
-Agile Methodology
-Time Management
-Problem Solving
-
-
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="column" style={skillsContainerStyle}>
+      <div style={skillsColumnStyle}>
+        <h2>Technical Skills</h2>
+        <ul style={skillsListStyle}>
+          {technicalSkills.map((skill, index) => (
+            <li  class ='list-group-item' key={index} style={skillsItemStyle}>
+              {skill}
+            </li>
+          ))}
+        </ul>
       </div>
-    </section>
+      <div class="column" style={skillsColumnStyle} >
+        <h2>Soft Skills</h2>
+        <ul style={skillsListStyle}>
+          {softSkills.map((skill, index) => (
+            <li class ='list-group-item' key={index} style={skillsItemStyle}>
+              {skill}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
   );
-}
+};
 
 export default Skills;

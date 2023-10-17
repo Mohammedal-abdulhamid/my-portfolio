@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+   text-decoration: none;
+}
+li {
+ 
+ border: none; /* Remove borders */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.list-group-item {
+    border: none; /* Remove borders */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .list-group-item:hover {
+    transform: translate(0, -5px); /* Move item up */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  }
+.column{
+    margin:0 10px 3px 10px
+}
