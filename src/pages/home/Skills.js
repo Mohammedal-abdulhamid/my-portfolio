@@ -12,8 +12,6 @@ const Skills = () => {
     'HTML/CSS',
     'RESTful APIs',
     'Git/GitHub',
-    'Webpack',
-    'Redux',
     'Responsive Web Design',
   ];
 
@@ -61,7 +59,7 @@ const Skills = () => {
   return (
     <div class="column" style={skillsContainerStyle}>
       <div style={skillsColumnStyle}>
-        <h2>Technical Skills</h2>
+        <h2 className='project-name'>Technical Skills</h2>
         <ul style={skillsListStyle}>
           {technicalSkills.map((skill, index) => (
             <li  class ='list-group-item' key={index} style={skillsItemStyle}>
@@ -71,7 +69,7 @@ const Skills = () => {
         </ul>
       </div>
       <div class="column" style={skillsColumnStyle} >
-        <h2>Soft Skills</h2>
+        <h2 className='project-name'>Soft Skills</h2>
         <ul style={skillsListStyle}>
           {softSkills.map((skill, index) => (
             <li class ='list-group-item' key={index} style={skillsItemStyle}>

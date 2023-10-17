@@ -3,14 +3,14 @@
 // function Projects() {
 //   return (
 //     // <div className="vh-100 d-flex container-fluid vh-100 d-flex flex-column justify-content-center align-items-center bg-dark text-white">
-//     // HTML code for the project section 
+//     // HTML code for the project section
 //     <section id="projects" class="bg-dark text-light py-5">
 //       <div class="container">
 //         <h2 class="text-center mb-5">Projects</h2>
-    
+
 //          {/* Project cards  */}
 //         <div class="row">
-    
+
 //           {/* Card for the Shop Comments App */}
 //           <div class="col-md-6 col-lg-4 mb-4">
 //             <div class="card border-light">
@@ -27,7 +27,7 @@
 //               </div>
 //             </div>
 //           </div>
-    
+
 //           {/* Card for Caritas Education */}
 //           <div class="col-md-6 col-lg-4 mb-4">
 //             <div class="card border-light">
@@ -108,126 +108,119 @@
 //               </div>
 //             </div>
 //             </div>
-          
-    
+
 //         </div>
 //       </div>
 //     </section>
-    
-    
+
 //   )
 // }
 
 // export default Projects
 
-import React from 'react';
-import './Projects.css'
+import React from "react";
+import "./Projects.css";
 
 const Projects = () => {
-  const education = [
-    'Code Your Future, UK, Dec 2020 - Mar 2022,(Full Stack Web Developer)',
-    'The Open University, UK, 2020 - Present,(finel year cumputing & IT student)',
-    'Alfurat University, Syria, 2013,(Economic/Business Administration)'
+  const shop = [
+    "Built the database from scratch with MongoDB and connected it to the App",
+    "Made the app dynamic and added different routes for each product",
+    "Users’ inputs were saved for each product and displayed",
+    "Applied dynamic styling to the top-rated product and showed it at the top of the page",
   ];
 
-  const languages = [
-    'English, fluent',
-    'Arabic, fluent',
-    
+  const caritas = [
+    "Set a daily stand-up and task distribution",
+    "Worked with a team to design the layout of the webpage using Wireframe",
+    "Set meetings with the customer at each stage of the work to get his feedback",
+    "Coded the testing part using Jest Testing Library and carried out some debugging",
   ];
-  const hobbies = [
-    'football',
-    'coding & problem solving',
-    'drawing & painting'
-  ]
+  const salon = [
+    "first project to deal with an actual client",
+    "successfully delived on the time and met the client expectation",
+    "full-stack project using reack, Express, Node",
+    "regular team meeting and Agile method approach",
+    "used different styling such as flex box and grid",
+  ];
+  const github_user = [
+    "creating a search UI and apply styling",
+    " user input was dedected and saved",
+    "fetch data that match the used input to desply the tagret used",
+    "displayed the matched used names and their most used language ",
+  ];
+  
 
-  const skillsContainerStyle = {
-    display: 'grid',
-   'grid-template':'grid-area',
-    'flex-wrap': 'wrap'
-   
-  };
-
-  const skillsColumnStyle = {
-    flex: '1 1 1 1 ',
-    backgroundColor: '#333',
-    color: '#fff',
-    padding: '20px',
-    borderRadius: '10px',
-  };
-
-  const skillsListStyle = {
-    listStyle: 'none',
-    marging:'10px',
-    padding:'5px'
-  };
-
-  const skillsItemStyle = {
-    backgroundColor: '#444',
-    padding: '10px',
-    margin: '5px 0',
-    borderRadius: '5px',
-    border: 'none'
-  };
   
   return (
-    <div class="column" style={skillsContainerStyle}>
-      <div style={skillsColumnStyle}>
-        <h2><a href="https://shop-products-project-440b7e5fb694.herokuapp.com/"> Shop Products App </a></h2>
-        <ul style={skillsListStyle}>
-          {education.map((study, index) => (
-            <li  class ='list-group-item' key={index} style={skillsItemStyle}>
-              {study}
+    <div className="main-container">
+      <div className="column">
+        <h2>
+          <a
+            className="project-name"
+            href="https://shop-products-project-440b7e5fb694.herokuapp.com/"
+          >
+            {" "}
+            Shop Products App{" "}
+          </a>
+        </h2>
+        <ul className="single-pro-list">
+          {shop.map((point, index) => (
+            <li className="list-group-item" key={index}>
+              {point}
             </li>
           ))}
         </ul>
       </div>
-      <div class="column" style={skillsColumnStyle} >
-        <h2><a href="https://caritas-project-b7431297a251.herokuapp.com/">  Caritas</a> </h2>
-        <ul style={skillsListStyle}>
-          {languages.map((language, index) => (
-            <li class ='list-group-item' key={index} style={skillsItemStyle}>
-              {language}
+      <div className="column">
+        <h2>
+          <a
+            className="project-name"
+            href="https://caritas-project-b7431297a251.herokuapp.com/"
+          >
+            {" "}
+            Caritas
+          </a>{" "}
+        </h2>
+        <ul className="single-pro-list">
+          {caritas.map((point, index) => (
+            <li className="list-group-item" key={index}>
+              {point}
             </li>
           ))}
         </ul>
       </div>
-      <div class="column" style={skillsColumnStyle} >
-        <h2><a href="https://zuhal-website-6f7248444e6d.herokuapp.com/"> Hair & Makeup Salon</a></h2>
-        <ul style={skillsListStyle}>
-          {hobbies.map((hobby, index) => (
-            <li class ='list-group-item' key={index} style={skillsItemStyle}>
-              {hobby}
+      <div className="column">
+        <h2>
+          <a
+            className="project-name"
+            href="https://zuhal-website-6f7248444e6d.herokuapp.com/"
+          >
+            {" "}
+            Hair & Makeup Salon
+          </a>
+        </h2>
+        <ul className="single-pro-list">
+          {salon.map((point, index) => (
+            <li className="list-group-item" key={index}>
+              {point}
             </li>
           ))}
         </ul>
       </div>
-      <div class="column" style={skillsColumnStyle} >
-        <h2><a href="https://lighthearted-pixie-af7fc6.netlify.app/"> GitHub User's Search</a></h2>
-        <ul style={skillsListStyle}>
-          {hobbies.map((hobby, index) => (
-            <li class ='list-group-item' key={index} style={skillsItemStyle}>
-              {hobby}
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div class="column" style={skillsColumnStyle} >
-        <h2><a href="https://zuhal-website-6f7248444e6d.herokuapp.com/"> Hair & Makeup Salon</a></h2>
-        <ul style={skillsListStyle}>
-          {hobbies.map((hobby, index) => (
-            <li class ='list-group-item' key={index} style={skillsItemStyle}>
-              {hobby}
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div class="column" style={skillsColumnStyle} >
-        <h2><a href="https://zuhal-website-6f7248444e6d.herokuapp.com/"> Hair & Makeup Salon</a></h2>
-        <ul style={skillsListStyle}>
-          {hobbies.map((hobby, index) => (
-            <li class ='list-group-item' key={index} style={skillsItemStyle}>
-              {hobby}
+      <div className="column">
+        <h2>
+          <a
+            className="project-name"
+            href="https://lighthearted-pixie-af7fc6.netlify.app/"
+          >
+            {" "}
+            GitHub User's Search
+          </a>
+        </h2>
+        <ul className="single-pro-list">
+          {github_user.map((point, index) => (
+            <li className="list-group-item" key={index}>
+              {point}
             </li>
           ))}
         </ul>
@@ -236,4 +229,4 @@ const Projects = () => {
   );
 };
 
-export default Projects
+export default Projects;
