@@ -1,12 +1,13 @@
-
-  .img-fluid.rounded-circle {
-   
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
-    width: 400px;
+.img-fluid.rounded-circle {
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 400px;
   height: 400px;
   display: block;
   margin: 0 auto;
-  }
-  
+  background-color: rgb(51, 51, 51);
+}
+.about-container {
+  background-color: rgb(51, 51, 51) !important;
+}

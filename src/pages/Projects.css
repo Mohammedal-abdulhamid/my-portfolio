@@ -1,0 +1,36 @@
+
+  /* .projectText{
+    color:black; */
+  /* } */
+  .main-container{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+     flex-wrap: wrap;
+     color: #fff;
+     background-color: rgb(51, 51, 51);
+  }
+  .column{
+    /* flex: 1 1 1 1 ; */
+    
+    color: '#fff';
+    padding: '20px';
+    border-radius: '10px'
+  }
+  .single-pro-list{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    color: #fff
+  }
+  .list-group-item{
+    background-color: rgb(68, 68, 68)!important;
+    padding: 20px !important;
+    margin: 5px 0 !important;
+    border-radius: 5px !important;
+    border: none
+  }
+  .project-name {
+    color : #A0CF89;
+    text-decoration: none !important;
+   
+}
