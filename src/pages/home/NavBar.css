@@ -1,0 +1,11 @@
+.nav-link{
+ color: black !important; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #a0cf89 !important; 
+    transform: translateY(-3px); 
+  }
+  
