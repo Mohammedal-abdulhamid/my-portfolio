@@ -5,7 +5,12 @@
 }
 
 .nav-link:hover {
-    color: #a0cf89 !important; 
+    color: #60b738 !important; 
     transform: translateY(-3px); 
+    font-size: 18px
+  }
+  .icon:hover{
+    font-size: 24px
+
   }
   

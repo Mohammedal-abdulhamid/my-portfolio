@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { NavLink } from 'react-bootstrap';
 import "./NavBar.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,19 +35,19 @@ function NavBar() {
                 href="https://www.linkedin.com/in/mohammed-alabdulhamid-445455209/"
                 className="me-4 text-reset"
               >
-                <FontAwesomeIcon  icon={faLinkedin} />
+                <FontAwesomeIcon  icon={faLinkedin} className ="icon" />
               </a>
               <a
                 href="https://github.com/Mohammedal-abdulhamid"
                 className="me-4 text-reset"
               >
-                <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faGithub}  className ="icon"/>
               </a>
               <a
                 href="mailto:mohammedalabdulhamid@gmail.com"
                 className="me-4 text-reset"
               >
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faEnvelope} className ="icon" />
               </a>
             </div>
     </Navbar>
